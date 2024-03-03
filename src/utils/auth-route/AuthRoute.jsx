@@ -1,21 +1,34 @@
-import React, { useContext} from "react";
+import { useContext} from "react";
 import MainAuthContext from "../../context/MainAuthContext";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
+import UserRoute from "../../routes/components/UserRoute";
+import AdminRoute from "../../routes/components/AdminRoute";
+import TechnicianRoute from "../../routes/components/TechnicianRoute";
+import LoginRoute from "../../routes/components/LoginRoute";
 
-let cleartime = null;
-const AuthRoute = ({ children }) => {
+// let cleartime = null;
+const AuthRoute = () => {
+ const {isUserLogged} = useContext(MainAuthContext)
+ const EndPoints = atob(localStorage.getItem("panalsEndPoints") ? JSON.parse(localStorage.getItem("panalsEndPoints")) : "");
+    // const navigate = useNavigate();
 
-    const {isUserLogged} = useContext(MainAuthContext)
-    const navigate = useNavigate();
+const switchRoutes = {
+  users : <UserRoute/>,
+  admins : <AdminRoute/>,
+  technician : <TechnicianRoute/>,
+  login : <LoginRoute/>,
+  "": "404 Not Found "
+}
+
   if (isUserLogged) {
-    clearTimeout(cleartime)
-    return children;
+    // clearTimeout(cleartime)
+    console.log(EndPoints)
+    return switchRoutes[EndPoints];
   } else {
-    cleartime = setTimeout(() => {
-        console.log("go to log in");
-        navigate("/login");
-      }, 3000);
-    return <h1>Not Authorise</h1>;
+    // cleartime = setTimeout(() => {
+    //     navigate("/login");
+    //   },3000);
+    return switchRoutes["login"];
   }
 };
 

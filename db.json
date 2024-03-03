@@ -1,34 +1,98 @@
 {
   "users": [
     {
-      "name": "isha",
-      "email": "gregg@admin.com",
-      "password": "greggadmin",
-      "id": 1707281038688
-    },
-    {
-      "name": "isha",
-      "email": "gregg@admin.com",
-      "password": "greggadmin",
-      "id": 1707281042210
-    },
-    {
-      "name": "isha",
-      "email": "gregg@admin.com",
-      "password": "greggadmin",
-      "id": 1707281056076
-    },
-    {
-      "name": "isha",
-      "email": "gregg@admin.com",
-      "password": "greggadmin",
-      "id": 1707281430076
+      "name": "ankit",
+      "email": "ankit@gmail.com",
+      "password": "MTIzNDU2",
+      "id": 1707498606190
     },
     {
       "name": "isha",
       "email": "ish@gmail.com",
-      "password": "123123",
-      "id": 1707325562079
+      "password": "MTIzMTIz",
+      "id": 1707498652174
+    },
+    {
+      "name": "urvisha",
+      "email": "urvisha@gmail.com",
+      "password": "MTIzNDU2",
+      "id": 1707540626288
+    },
+    {
+      "name": "moon",
+      "email": "moon@gmail.com",
+      "password": "MTIzMTIz",
+      "id": 1707632411250
+    },
+    {
+      "name": "milan",
+      "email": "milan@gmail.com",
+      "password": "NDEyNzE1",
+      "id": 1707636382678
+    },
+    {
+      "name": "snehu",
+      "email": "snehu@gmail.com",
+      "password": "MTIzNDU2",
+      "id": 1707642905283
+    },
+    {
+      "name": "isha Koladiya",
+      "email": "isha111@admin.com",
+      "password": "MTIzMTIz",
+      "id": 1707642980227
+    },
+    {
+      "name": "nimo",
+      "email": "nimo@gmail.com",
+      "password": "bmltbw==",
+      "id": 1707892579794
+    },
+    {
+      "name": "disha",
+      "email": "disha@gmail.com",
+      "password": "MTIz",
+      "id": 1708488307475
+    },
+    {
+      "name": "disha",
+      "email": "disha@gmail.com",
+      "password": "MTIz",
+      "id": 1708488308933
+    }
+  ],
+  "admins": [
+    {
+      "name": "isha koladiya",
+      "email": "isha@admin.com",
+      "password": "MTIz",
+      "id": 1707643117513
+    },
+    {
+      "name": "mumma",
+      "email": "mumma.@admin.com",
+      "password": "bXVtbWFBZG1pbg==",
+      "id": 1707646985229
+    },
+    {
+      "name": "daddy",
+      "email": "daddy.@admin.com",
+      "password": "MTIzNDU2",
+      "id": 1707661653518
+    },
+    {
+      "name": "neha",
+      "email": "neha@admin.com",
+      "password": "bmVoYUFkbWlu",
+      "id": 1707892351503
+    }
+  ],
+  "technician": [
+    {
+      "name": "sivay",
+      "email": "sivay@technician.com",
+      "password": "MTIzNDU2",
+      "id": 1707643264571
     }
   ]
 }

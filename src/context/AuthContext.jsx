@@ -12,7 +12,7 @@ useEffect(() => {
 
 const handleIsLogin = (value) => {
     setIsUserLogged(value);
-    localStorage.setItem("isUserLogged", value);
+    // localStorage.setItem("isUserLogged", value);
   };
 
   return (

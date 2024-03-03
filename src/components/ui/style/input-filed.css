@@ -1,0 +1,28 @@
+input {
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+    width: 93%;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #85c7f2; /* Change this color for focus effect */
+  }
+  
